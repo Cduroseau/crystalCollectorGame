@@ -1,0 +1,124 @@
+body{
+    background: url("galaxy.jpg");
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: auto;  
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+h1{
+    margin-top: 10px;
+    margin: auto;
+    width: 600px;
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    border: solid;
+    opacity: 0.8;
+}
+
+.instructions {
+  margin: auto;   
+  width: 600px;
+  height: 325px;
+  padding: 5px;
+  background-color: white;
+  border: solid;
+  opacity: 0.7;
+}
+
+audio{
+    float: right;
+    margin: 0px;
+    opacity: 0.7;
+}
+
+button{
+    border-radius: 16px;
+    margin-top: 15px;
+}
+
+.container{
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.col-lg-3{
+    background-color:white;
+    margin: auto;
+    padding: 2.5px;
+    border: solid;
+    opacity: 0.7;
+}
+
+img{
+margin-top: 10px;   
+width: 150px;
+height: 250px;
+border: solid;
+opacity: 0.8;
+}
+
+/* image animations */
+
+@keyframes mind{
+   100% {box-shadow: 0px 1px 5px 8px rgb(16, 155, 3);}
+}
+
+#mind:hover{
+    animation-name: mind;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes reality{
+    100% {box-shadow: 0px 1px 5px 8px rgb(78, 73, 167);}
+ }
+ 
+ #reality:hover{
+     animation-name: reality;
+     animation-duration: 0.5s;
+     animation-fill-mode: forwards;
+ }
+
+ @keyframes power{
+    100% {box-shadow: 0px 1px 5px 8px rgb(236, 202, 11);}
+ }
+ 
+ #power:hover{
+     animation-name: power;
+     animation-duration: 0.5s;
+     animation-fill-mode: forwards; 
+ }   
+ 
+@keyframes soul{
+        100% {box-shadow: 0px 1px 5px 8px rgb(119, 11, 161);}
+     }
+     
+ #soul:hover{
+    animation-name: soul;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;      
+}
+
+@keyframes time{
+    100% {box-shadow: 0px 1px 5px 8px rgb(233, 130, 13);}
+ }
+ 
+ #time:hover{
+    animation-name: time;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes space{
+    100% {box-shadow: 0px 1px 5px 8px rgb(233, 13, 13);}
+ }
+ 
+ #space:hover{
+    animation-name: space;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards; 
+ }
+
+
